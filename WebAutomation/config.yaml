@@ -1,0 +1,13 @@
+env: "qa"
+
+qa:
+  baseUrl: "https://discoveryplus.in"
+  browser: "chrome"
+
+dev:
+  baseUrl: "https://discoveryplus.in"
+  browser: "firefox"
+
+stage:
+  baseUrl: "https://discoveryplus.in"
+  browser: "headless"
