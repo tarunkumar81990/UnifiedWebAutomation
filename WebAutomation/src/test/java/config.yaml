@@ -1,7 +1,7 @@
-env: "qa"
 
+timeOut: "30"
 qa:
-  baseUrl: "https://discoveryplus.in"
+  baseUrl: "https://google.com"
   browser: "chrome"
 
 dev:
