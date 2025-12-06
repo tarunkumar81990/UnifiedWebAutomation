@@ -11,11 +11,10 @@ import io.cucumber.testng.CucumberOptions;
 	glue="com.automation.stepdefinitions",
 	monochrome=true,
 			snippets = CucumberOptions.SnippetType.CAMELCASE,
-		    dryRun = false,
-			 plugin = {
-				        "pretty",
-				        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
-				    }
+		    dryRun = false
+		    
+			
+				    
 	
 		
 		

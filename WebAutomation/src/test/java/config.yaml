@@ -1,3 +1,5 @@
+environment : QA
+application : Google
 
 timeOut: "30"
 qa:
