@@ -14,9 +14,8 @@ import com.automation.utils.ConfigReader;
 
 public class BaseTest {
 	
-@Parameters("browser")	
-@BeforeMethod
-public void setup(@Optional("chrome") String browser) throws Exception {
+
+public void setup(String browser) throws Exception {
 
 WebDriver driver = Driverfactory.getInstance().CreateDriver(browser);
 DriverManager.setDriver(driver);
