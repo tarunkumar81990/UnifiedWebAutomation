@@ -3,10 +3,7 @@ package com.automation.base;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+
 
 import com.automation.driver.DriverManager;
 import com.automation.driver.Driverfactory;
@@ -27,7 +24,7 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ti
 driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(time)));
 }	
 
-@AfterMethod
+
 public void tearDown() {
 	DriverManager.getDriver().close();
 	DriverManager.unload();
